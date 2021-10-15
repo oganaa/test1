@@ -316,7 +316,7 @@ canvas:active {
         </h1>
          <audio id="myAudio"  autoplay>
           <!-- <source src="./song.ogg" type="audio/ogg"> -->
-          <source src="./song.mp3" type="audio/mpeg">
+          <source src="song.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
         
@@ -553,7 +553,7 @@ makeItRain();
       
           self.init = function () {
            // pausePlay();//
-           var x = document.getElementById("myAudio").autoplay;
+          //  var x = document.getElementById("myAudio").autoplay;
             self.dt = 0;
             self.oldTime = Date.now();
             self.canvas = document.createElement("canvas");
