@@ -899,7 +899,7 @@ makeItRain();
             });
       
             $(self.canvas).on("mousedown", function (e) {
-              // pausePlay();
+              pausePlay();
               let randLaunch = rand(0, 5);
               self.mx = e.pageX - self.canvasContainer.offset().left;
               self.my = e.pageY - self.canvasContainer.offset().top;
