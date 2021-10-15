@@ -553,6 +553,7 @@ makeItRain();
       
           self.init = function () {
            // pausePlay();//
+           var x = document.getElementById("myAudio").autoplay;
             self.dt = 0;
             self.oldTime = Date.now();
             self.canvas = document.createElement("canvas");
