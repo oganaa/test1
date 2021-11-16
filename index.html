@@ -315,9 +315,11 @@ canvas:active {
 	    <span class="letters letters-10">💕Халуун хайраар дүүгээ хайрлахсан 💕</span>
 	    <span class="letters letters-11">💕Дасах хүртэл нь  💕</span>
 	    <span class="letters letters-12">💕Даруухан чамайгаа намууханаар хүлээхсэн 💕</span>
-	    <span class="letters letters-13"">💕Дахин дахин чам💕</span>
-            <span class="letters letters-14">👌👅👅👅👌</span>
-            
+	    <span class="letters letters-13">💕Харин тэр үед чи минь намайг хүлээн авах уу?💕</span>
+	    <span class="letters letters-14">💕Хариулж надал өгөөч💕</span>			     
+            <span class="letters letters-15">👌👅Хүслэн зориуллаа👅👌</span>
+	    <span class="letters letters-16">👌👅2021-11-16 23:44👅👌</span>
+            <span class="letters letters-17">👌👅Түүнийг хайрладаг нэгэн залуугаас👅👌</span>
         </h1>
         <audio
         autoplay
@@ -516,6 +518,104 @@ makeItRain();
             })
             .add({
               targets: ".fw-text-overlay .letters-10",
+              opacity: 0,
+              scale: fwTextOverlay.scaleOut,
+              duration: fwTextOverlay.durationOut,
+              easing: "easeInExpo",
+              delay: fwTextOverlay.delay
+            })
+	   .add({
+              targets: ".fw-text-overlay .letters-11",
+              opacity: fwTextOverlay.opacityIn,
+              scale: fwTextOverlay.scaleIn,
+              duration: fwTextOverlay.durationIn
+            })
+            .add({
+              targets: ".fw-text-overlay .letters-11",
+              opacity: 0,
+              scale: fwTextOverlay.scaleOut,
+              duration: fwTextOverlay.durationOut,
+              easing: "easeInExpo",
+              delay: fwTextOverlay.delay
+            })
+	    .add({
+              targets: ".fw-text-overlay .letters-12",
+              opacity: fwTextOverlay.opacityIn,
+              scale: fwTextOverlay.scaleIn,
+              duration: fwTextOverlay.durationIn
+            })
+            .add({
+              targets: ".fw-text-overlay .letters-12",
+              opacity: 0,
+              scale: fwTextOverlay.scaleOut,
+              duration: fwTextOverlay.durationOut,
+              easing: "easeInExpo",
+              delay: fwTextOverlay.delay
+            })
+	.add({
+              targets: ".fw-text-overlay .letters-13",
+              opacity: fwTextOverlay.opacityIn,
+              scale: fwTextOverlay.scaleIn,
+              duration: fwTextOverlay.durationIn
+            })
+            .add({
+              targets: ".fw-text-overlay .letters-13",
+              opacity: 0,
+              scale: fwTextOverlay.scaleOut,
+              duration: fwTextOverlay.durationOut,
+              easing: "easeInExpo",
+              delay: fwTextOverlay.delay
+            })
+		  .add({
+              targets: ".fw-text-overlay .letters-14",
+              opacity: fwTextOverlay.opacityIn,
+              scale: fwTextOverlay.scaleIn,
+              duration: fwTextOverlay.durationIn
+            })
+            .add({
+              targets: ".fw-text-overlay .letters-14",
+              opacity: 0,
+              scale: fwTextOverlay.scaleOut,
+              duration: fwTextOverlay.durationOut,
+              easing: "easeInExpo",
+              delay: fwTextOverlay.delay
+            })
+		  .add({
+              targets: ".fw-text-overlay .letters-15",
+              opacity: fwTextOverlay.opacityIn,
+              scale: fwTextOverlay.scaleIn,
+              duration: fwTextOverlay.durationIn
+            })
+            .add({
+              targets: ".fw-text-overlay .letters-15",
+              opacity: 0,
+              scale: fwTextOverlay.scaleOut,
+              duration: fwTextOverlay.durationOut,
+              easing: "easeInExpo",
+              delay: fwTextOverlay.delay
+            })
+		  .add({
+              targets: ".fw-text-overlay .letters-16",
+              opacity: fwTextOverlay.opacityIn,
+              scale: fwTextOverlay.scaleIn,
+              duration: fwTextOverlay.durationIn
+            })
+            .add({
+              targets: ".fw-text-overlay .letters-16",
+              opacity: 0,
+              scale: fwTextOverlay.scaleOut,
+              duration: fwTextOverlay.durationOut,
+              easing: "easeInExpo",
+              delay: fwTextOverlay.delay
+            })
+		  .add({
+              targets: ".fw-text-overlay .letters-17",
+              opacity: fwTextOverlay.opacityIn,
+              scale: fwTextOverlay.scaleIn,
+              duration: fwTextOverlay.durationIn
+            })
+            .add({
+              targets: ".fw-text-overlay .letters-17",
               opacity: 0,
               scale: fwTextOverlay.scaleOut,
               duration: fwTextOverlay.durationOut,
